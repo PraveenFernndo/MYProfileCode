@@ -1,0 +1,86 @@
+*{
+    font-family: Calibri;
+}
+@keyframes animation1{
+    0%{
+        opacity: 0;
+        margin-top: -10px;
+    }
+    100%{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+@keyframes animation2 {
+    0% {
+        opacity: 0;
+        margin-top: 10px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+.mainBody{
+    animation-name: animation2;
+    animation-duration: 2s;
+}
+
+button{
+    animation-name: animation1;
+    animation-duration: 2s;
+    color: black;
+}
+button:hover{
+    color: white;
+}
+
+.mylogo{
+    animation-name: animation1;
+    animation-duration: 3s;
+}
+
+h1{
+    font-size: 80px;
+    line-height: 90%;
+}
+.d1{
+    top: 5%;
+    left: 0%;
+    height: 80vh;
+    position: fixed;
+    box-shadow: 0px 0px 15px rgb(62, 62, 62)
+}
+.d2{
+    background-color: red;
+}
+.menuDiv{
+    top:7%;
+    position:fixed;
+}
+.X{
+    cursor: pointer;
+    
+}
+.X:hover{
+    color: gray;
+}
+.scrollButton{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    display: none;
+    
+}
+.mb{
+
+    border-color: black;
+}
+.mb:hover {
+    border-bottom: white;
+}
+
+
+
